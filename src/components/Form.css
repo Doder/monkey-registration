@@ -1,0 +1,86 @@
+.Form{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Form h1{
+    text-align: center;
+}
+
+.error{
+    color: red;
+}
+
+form > div{
+    height: 400px;
+    position: relative;
+}
+
+input{
+    display: block;
+    padding: 6px 10px;
+    border: 1px solid #60C0E6;
+    margin: 30px auto 0 auto;
+    width: 240px;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    display: block;
+    padding: 8px 32px;
+    margin: 30px auto;
+    border: 1px solid #60C0E6;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}
+
+.StepOne, .StepTwo{
+    position: absolute;
+}
+
+.swipe-left-appear{
+    animation: swipe-left-appear .3s ease-in;
+}
+
+@keyframes swipe-left-appear{
+    0%{
+        right: -100px;
+        opacity: 0;
+    }
+    100%{
+        right: 0;
+        opacity: 1;
+    }
+}
+
+.swipe-left-disappear{
+    animation: swipe-left-disappear .3s ease-in forwards;
+}
+
+@keyframes swipe-left-disappear{
+    0%{
+    }
+    100%{
+        margin-left: -100px;
+        opacity: 0;
+        display: none;
+    }
+}

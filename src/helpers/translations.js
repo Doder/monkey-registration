@@ -1,0 +1,40 @@
+export default {
+    'en': {
+        signUp: 'Sign up',
+        step: 'Step',
+        firstName: 'First Name',
+        lastName: 'Last Name',
+        next: 'Next',
+        email: 'Email',
+        username: 'Username',
+        password: 'Password',
+        confirmPassword: 'Confirm Password',
+        required: 'Required',
+        minLength: 'Min length is',
+        maxLength: 'Max length is',
+        submit: 'Submit',
+        passwordNotStrong: 'Password isn\'t strong enough',
+        passwordMustBeSame: 'Must be same as password',
+        successMessage: 'Successfully Singed up',
+        failMessage: 'Fail'
+    },
+    'hr': {
+        signUp: 'Prijava',
+        step: 'Korak',
+        firstName: 'Ime',
+        lastName: 'Prezime',
+        next: 'Sledece',
+        email: 'Email',
+        username: 'Korisnicko ime',
+        password: 'Pasvord',
+        confirmPassword: 'Potvrda pasvorda',
+        required: 'Obavezno',
+        minLength: 'Minimalna duzina je',
+        maxLength: 'Maksimalna duzina je',
+        submit: 'Posalji',
+        passwordNotStrong: 'Pasvord nije dovoljno jak',
+        passwordMustBeSame: 'Mora biti isto kao pasvord',
+        successMessage: 'Uspijesno kreiran profil',
+        failMessage: 'Greska'
+    }
+};
